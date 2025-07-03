@@ -8,9 +8,30 @@
     body {
       font-family: 'Open Sans', sans-serif;
       background-color: #fdfaf6;
+      margin: 0;
+      padding: 0;
+      color: #3e5641;
+    }
+    header {
+      background-color: #3e5641;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-container {
+      background-color: white;
+      padding: 5px 10px;
+      border-radius: 6px;
+    }
+    .logo {
+      height: 50px;
+      display: block;
+    }
+    main {
       text-align: center;
       padding: 100px 20px;
-      color: #3e5641;
     }
     h1 {
       font-size: 2.5rem;
@@ -35,8 +56,16 @@
   </style>
 </head>
 <body>
-  <h1>Thank You!</h1>
-  <p>Your message has been sent successfully. We’ll get back to you as soon as possible.</p>
-  <a href="index.html">Return to Home</a>
+  <header>
+    <div class="logo-container">
+      <img src="logo.jpg" alt="J&Jinx Logo" class="logo">
+    </div>
+  </header>
+
+  <main>
+    <h1>Thank You!</h1>
+    <p>Your message has been sent successfully. We’ll get back to you as soon as possible.</p>
+    <a href="index.html">Return to Home</a>
+  </main>
 </body>
 </html>
