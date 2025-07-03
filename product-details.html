@@ -15,7 +15,20 @@
         }
         header {
             background-color: #3e5641;
+            color: white;
             padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo-container {
+            background-color: white;
+            padding: 5px 10px;
+            border-radius: 6px;
+        }
+        .logo {
+            height: 50px;
+            display: block;
         }
         nav ul {
             list-style: none;
@@ -100,6 +113,9 @@
 </head>
 <body>
     <header>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="J&Jinx Logo" class="logo">
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
